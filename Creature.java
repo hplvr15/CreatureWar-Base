@@ -2,21 +2,24 @@
 /**
  * Write a description of class Creature here.
  * 
- * @author (your name) 
- * @version (a version number or a date)
+ * @author Hannah Dela Cruz
+ * @version 4/25/2016
  */
 public class Creature
 {
    private int hp;
    private int strength;
    
-   public Creature(){
-       
+   public Creature()
+   {
+       hp = 10;
+       strength = 10;
    }
     
-   public int damage(){
+   public int damage()
+   {
        //TODO: change this
-       return 0;
+       ;
     }
     
 }
