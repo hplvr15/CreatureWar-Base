@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.params=
+comment0.target=War()
+comment1.params=
+comment1.target=void\ battle()
+comment1.text=\r\n\ Creates\ two\ armies\ of\ creatures\ and\ has\ them\ battle\ each\ other\r\n\ Show\ results\ of\ who\ won\ the\ battle\r\n
+numComments=2

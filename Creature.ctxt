@@ -1,6 +1,24 @@
 #BlueJ class context
 comment0.params=
 comment0.target=Creature()
-comment1.params=
-comment1.target=int\ damage()
-numComments=2
+comment1.params=health\ str
+comment1.target=Creature(int,\ int)
+comment2.params=
+comment2.target=int\ damage()
+comment2.text=\r\n\ Returns\ an\ int\ equal\ to\ a\ random\ number\ based\ on\ the\ creature's\ strength.\r\n
+comment3.params=dmg
+comment3.target=void\ takeDamage(int)
+comment3.text=\r\n\ Receive\ a\ hit\ \r\n\ @pram\ Damage\r\n
+comment4.params=str
+comment4.target=void\ setStrength(int)
+comment4.text=\r\n\ The\ setStrength\ method\ sets\ str\ for\ the\ creatures\ \r\n\ @param\ hp\r\n
+comment5.params=
+comment5.target=int\ getStrength()
+comment5.text=\r\n\ The\ getStrength\ return\ strength\ of\ the\ creatures.\r\n\ returns\ ine\ health\r\n
+comment6.params=
+comment6.target=int\ getHealth()
+comment6.text=\r\n\ The\ getHealth\ returns\ hp\ of\ the\ creatures.\r\n\ returns\ int\ health\r\n
+comment7.params=health
+comment7.target=void\ setHealth(int)
+comment7.text=\r\n\ The\ setHealth\ method\ sets\ hp\ for\ the\ creatures\ \r\n\ @param\ hp\r\n
+numComments=8
