@@ -1,8 +1,8 @@
 #BlueJ class context
 comment0.params=
 comment0.target=Elf()
-comment0.text=\r\n\ Constructor\ for\ which\ calls\ superclass\r\n
+comment0.text=\r\n\ Constructor\ for\ objects\ of\ class\ Elf\r\n
 comment1.params=
 comment1.target=int\ damage()
-comment1.text=\r\n\ Damages\ twices\ when\ 10%\r\n
+comment1.text=\r\n\ Damages\ twices\ when\ 10%\ chance\r\n
 numComments=2

@@ -42,7 +42,7 @@ public class Creature
      * Receive a hit 
      * @pram Damage
      */
-   
+
     public void takeDamage(int dmg)
     {
         hp -= dmg;
@@ -62,7 +62,7 @@ public class Creature
             strength = minStr;
         }
     }
-
+               
     /**
      * The getStrength return strength of the creatures.
      * returns ine health

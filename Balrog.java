@@ -2,24 +2,26 @@ import java.util.Random;
 
 /**
  * Write a description of class Balrog here.
- * 
- * @author (your name) 
- * @version (a version number or a date)
+ * @author Hannah Dela Cruz
+ * @version 4/25/2016
+>>>>>>> origin/master
  */
 public class Balrog extends Demon
 {
     // instance variables - replace the example below with your own
+
    Random ran = new Random();
-    
+
     /**
      * Constructor for objects of class Balrog
      */
     public Balrog()
     {
         // initialise instance variables
+
         super();
-        setHealth(25);
-        setStrength(17);
+        setHealth(40);
+        setStrength(10);
     }
 
     /**
@@ -36,6 +38,15 @@ public class Balrog extends Demon
             damage = damage + 50;
         }
         
+        damage = damage + ran.nextInt(strength) + 1;
+        crit = ran.nextInt(100) + 1;
+         if(crit == 5)
+        {
+            damage = damage + 50;
+        }
+        
         return damage;
+
     }
+
 }

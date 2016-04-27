@@ -2,28 +2,25 @@ import java.util.Random;
 
 /**
  * Write a description of class Elf here.
- * 
- * @author Hannah 
- * @version 
+ * @author Hannah Dela Cruz
+ * @version 4/25/2016
  */
 public class Elf extends Creature
 {
-    // instance variables - replace the example below with your own
     Random ran = new Random();
-    
+
     /**
-     * Constructor for which calls superclass
+     * Constructor for objects of class Elf
      */
     public Elf()
     {
-        // initialise instance variables
         super();
         setHealth(8);
         setStrength(3);
     }
 
     /**
-     * Damages twices when 10%
+     * Damages twices when 10% chance
      */
     public int damage()
     {
@@ -38,4 +35,5 @@ public class Elf extends Creature
         
         return damage;
     }
+   
 }

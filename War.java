@@ -3,11 +3,12 @@ import java.util.*;
 /**
  * Write a description of class War here.
  * 
- * @author (your name) 
- * @version (a version number or a date)
+ * @author Hannah
+ * @version 4/26/16
  */
 public class War
 {
+
     public War()
     {
     }
@@ -18,9 +19,9 @@ public class War
      */
     public void battle()
     {
-        // put your code here
+        // put your code here int i = 0;
         int i = 0;
-        
+        Random ran = new Random();
         ArrayList<Creature> army1 = new ArrayList<Creature>();
         ArrayList<Creature> army2 = new ArrayList<Creature>();
         
@@ -44,26 +45,26 @@ public class War
            {
                 army1.get(armyOneIndex).takeDamage(army2.get(armyTwoIndex).damage()); 
                 army2.get(armyTwoIndex).takeDamage(army1.get(armyTwoIndex).damage());
-            }
+           }
             
              if(army1.get(armyOneIndex).getHealth()<0 && army2.get(armyTwoIndex).getHealth()<0)
              {
-            armyOneIndex++;
-            armyTwoIndex++;
-            System.out.println("No one is left!");
+                 armyOneIndex++;
+                 armyTwoIndex++;
+                 System.out.println("No one is left!");
             }
         
             else if(army1.get(armyOneIndex).getHealth() < 0)
             {
             armyOneIndex++;
             System.out.println("A creature dies from the first army.");
-        }
+           }
         
             else if(army2.get(armyTwoIndex).getHealth() < 0)
             {
             armyTwoIndex++;
             System.out.println("A creature dies from  the second army.");
-        }
+            }
        }
                 
         String result = "";
@@ -81,7 +82,10 @@ public class War
         {
             result = "ARMY 1!";
         System.out.println(result + " is the victorious winner of the battle.");
-    }
+        }
     }
     
+
+
+   
 }

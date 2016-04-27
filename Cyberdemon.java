@@ -1,5 +1,6 @@
 import java.util.Random;
 
+
 /**
  * Write a description of class Cyberdemon here.
  * 
@@ -11,13 +12,15 @@ public class Cyberdemon extends Demon
     // instance variables - replace the example below with your own
     Random ran = new Random();
 
+
     /**
-     * Constructor for objects of class Cyberdemon from superclass
+     * Constructor for objects of class Cyberdemon
      */
     public Cyberdemon()
     {
-        // initialise instance variables
         super();
     }
+
+    
 
 }
